@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR-Services | Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans tech-gradient">
+  <nav class="fixed w-full z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center gap-2">
+          <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+            <span class="text-xl font-black italic text-white">MR</span>
+          </div>
+          <a href="index.html" class="text-2xl font-bold tracking-tight text-white">MR-<span class="text-blue-500">Services</span></a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="nav-link px-3 py-2 text-sm font-medium text-slate-300 hover:text-white">Home</a>
+          <a href="about.html" class="nav-link px-3 py-2 text-sm font-medium text-slate-300 hover:text-white">About Us</a>
+          <a href="contact.html" class="nav-link active px-3 py-2 text-sm font-medium text-blue-400">Contact</a>
+          <a href="contact.html" class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg">Hire Us</a>
+        </div>
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-slate-400 hover:text-white"><i class="fa-solid fa-bars text-2xl"></i></button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 py-4 space-y-2">
+      <a href="index.html" class="block px-3 py-2 text-slate-300">Home</a>
+      <a href="about.html" class="block px-3 py-2 text-slate-300">About Us</a>
+      <a href="contact.html" class="block px-3 py-2 text-blue-400 font-medium">Contact</a>
+    </div>
+  </nav>
+
+  <main class="pt-32 pb-20 px-4 animate-fadeIn max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Get In <span class="text-red-500">Touch</span></h1>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div class="p-8 bg-slate-900 border border-slate-800 rounded-3xl space-y-8">
+        <h3 class="text-xl font-bold mb-4">Contact Details</h3>
+        <div class="flex gap-4">
+          <i class="fa-solid fa-envelope text-blue-500 mt-1"></i>
+          <div><p class="text-xs text-slate-500 font-bold uppercase">Email</p><a href="mailto:teamtech2286@gmail.com" class="text-slate-200">teamtech2286@gmail.com</a></div>
+        </div>
+        <div class="flex gap-4">
+          <i class="fa-solid fa-phone text-purple-500 mt-1"></i>
+          <div><p class="text-xs text-slate-500 font-bold uppercase">Call</p><a href="tel:03091070382" class="text-slate-200">0309 1070382</a></div>
+        </div>
+        <div class="flex gap-4">
+          <i class="fa-solid fa-location-dot text-red-500 mt-1"></i>
+          <div><p class="text-xs text-slate-500 font-bold uppercase">Office</p><p class="text-slate-200">Gulberg, Lahore, Pakistan</p></div>
+        </div>
+        <div class="pt-8 border-t border-slate-800">
+          <p class="text-sm font-bold mb-4">Social Presence</p>
+          <div class="grid grid-cols-1 gap-2">
+            <a href="https://github.com/MurtazaRaza-gitech/" target="_blank" class="px-4 py-2 bg-slate-800 rounded text-sm hover:bg-slate-700">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/murtaza-raza-85365a397" target="_blank" class="px-4 py-2 bg-slate-800 rounded text-sm hover:bg-blue-700">LinkedIn Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-2">
+        <form class="p-8 md:p-12 bg-slate-900 border border-slate-800 rounded-3xl" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <input type="text" placeholder="Full Name" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 outline-none">
+            <input type="email" placeholder="Email Address" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 outline-none">
+          </div>
+          <textarea rows="5" placeholder="Your Message" required class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 outline-none mb-8"></textarea>
+          <button type="submit" class="w-full px-10 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-black rounded-xl hover:scale-105 transition-all shadow-xl">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-slate-900 border-t border-slate-800 pt-12 pb-6 px-4">
+    <div class="max-w-7xl mx-auto text-center md:text-left">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div><h4 class="text-xl font-bold text-white">MR-Services</h4></div>
+        <div>
+          <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Developer Info</h4>
+          <p class="text-sm text-slate-400">Murtaza Raza | Semester 1 | Punjab University</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.tsx"></script>
+</body>
+</html>

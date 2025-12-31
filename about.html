@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR-Services | About Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans tech-gradient">
+  <nav class="fixed w-full z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center gap-2">
+          <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+            <span class="text-xl font-black italic text-white">MR</span>
+          </div>
+          <a href="index.html" class="text-2xl font-bold tracking-tight text-white">MR-<span class="text-blue-500">Services</span></a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="nav-link px-3 py-2 text-sm font-medium text-slate-300 hover:text-white">Home</a>
+          <a href="about.html" class="nav-link active px-3 py-2 text-sm font-medium text-blue-400">About Us</a>
+          <a href="contact.html" class="nav-link px-3 py-2 text-sm font-medium text-slate-300 hover:text-white">Contact</a>
+          <a href="contact.html" class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg">Hire Us</a>
+        </div>
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-slate-400 hover:text-white"><i class="fa-solid fa-bars text-2xl"></i></button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 py-4 space-y-2">
+      <a href="index.html" class="block px-3 py-2 text-slate-300">Home</a>
+      <a href="about.html" class="block px-3 py-2 text-blue-400 font-medium">About Us</a>
+      <a href="contact.html" class="block px-3 py-2 text-slate-300">Contact</a>
+    </div>
+  </nav>
+
+  <main class="pt-32 pb-20 px-4 animate-fadeIn max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+      <div>
+        <h2 class="text-blue-500 font-bold uppercase tracking-wider text-sm mb-4">Our Background</h2>
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-8 text-white">Two Years of <span class="text-purple-500">Innovation</span></h1>
+        <p class="text-slate-400 text-lg leading-relaxed mb-6">MR-Services has rapidly grown into a formidable force in the industry. In just two years, we've delivered over 50+ high-impact projects globally.</p>
+        <div class="grid grid-cols-2 gap-8">
+          <div class="p-6 bg-slate-800/50 rounded-2xl border-l-4 border-blue-500">
+            <h3 class="text-3xl font-black text-white">2+</h3>
+            <p class="text-slate-400 text-sm">Years Exp</p>
+          </div>
+          <div class="p-6 bg-slate-800/50 rounded-2xl border-l-4 border-purple-500">
+            <h3 class="text-3xl font-black text-white">30+</h3>
+            <p class="text-slate-400 text-sm">Experts</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-slate-800 rounded-3xl overflow-hidden border border-slate-700 aspect-video relative">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Team" class="w-full h-full object-cover opacity-60">
+        <div class="absolute bottom-6 left-6 text-white font-bold">Gulberg, Lahore, Pakistan</div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="p-10 bg-slate-900 border border-slate-800 rounded-3xl">
+        <i class="fa-solid fa-bullseye text-red-500 text-2xl mb-6"></i>
+        <h3 class="text-2xl font-bold mb-4">Mission</h3>
+        <p class="text-slate-400">To empower businesses with disruptive technology solutions that solve real-world problems and drive meaningful growth.</p>
+      </div>
+      <div class="p-10 bg-slate-900 border border-slate-800 rounded-3xl">
+        <i class="fa-solid fa-eye text-blue-500 text-2xl mb-6"></i>
+        <h3 class="text-2xl font-bold mb-4">Vision</h3>
+        <p class="text-slate-400">To be a global leader in digital innovation, recognized for our creative problem-solving and commitment to excellence.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-slate-900 border-t border-slate-800 pt-12 pb-6 px-4">
+    <div class="max-w-7xl mx-auto text-center md:text-left">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div><h4 class="text-xl font-bold text-white">MR-Services</h4></div>
+        <div>
+          <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Developer</h4>
+          <p class="text-sm text-slate-400">Murtaza Raza | Semester 1 | Punjab University</p>
+        </div>
+        <div class="flex md:justify-end space-x-4">
+          <a href="https://github.com/MurtazaRaza-gitech/" class="text-slate-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
+          <a href="https://www.linkedin.com/in/murtaza-raza-85365a397" class="text-slate-400 hover:text-white"><i class="fa-brands fa-linkedin text-xl"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.tsx"></script>
+</body>
+</html>
