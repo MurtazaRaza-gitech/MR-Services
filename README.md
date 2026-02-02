@@ -8,11 +8,11 @@ Welcome to the repository for **MR Services**, a professional service platform d
 
 I provide a comprehensive suite of digital services designed to help businesses and individuals scale their online presence:
 
-* [cite_start]**Responsive Web Development**: Specialized in building modern, mobile-friendly websites using **WordPress, PHP, HTML5, and CSS3**[cite: 224].
-* [cite_start]**UI/UX Design**: Creating intuitive and visually striking user interfaces using **Figma and Canva**[cite: 225].
-* [cite_start]**AI & Technical Research**: Delivering data-driven insights through specialized **technical research and academic writing**[cite: 222].
-* [cite_start]**Database Management**: Implementing robust backend systems using **MySQL (XAMPP)**[cite: 226].
-* [cite_start]**Marketing & Media**: Professional **video creation** for social media growth and marketing assets[cite: 227].
+**Responsive Web Development**: Specialized in building modern, mobile-friendly websites using **WordPress, PHP, HTML5, and CSS3**[cite: 224].
+**UI/UX Design**: Creating intuitive and visually striking user interfaces using **Figma and Canva**[cite: 225].
+**AI & Technical Research**: Delivering data-driven insights through specialized **technical research and academic writing**[cite: 222].
+**Database Management**: Implementing robust backend systems using **MySQL (XAMPP)**[cite: 226].
+**Marketing & Media**: Professional **video creation** for social media growth and marketing assets[cite: 227].
 
 ---
 
